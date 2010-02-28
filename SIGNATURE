@@ -1,0 +1,61 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 9ba9746aaa2f1d3bcda29070a82f0b5356ff068f Build.PL
+SHA1 9b53fc70bfe490b6a58e494a0858a0df2dabe71d Changes
+SHA1 656032c559ae6e8cf7474d7287616161da3f8544 INSTALL
+SHA1 3c8487cb5001b00538270aa8f67b3575dd3c5201 MANIFEST
+SHA1 3e04c1503d883693537aeb67cec0eee75b9de372 META.yml
+SHA1 73534f468f09d137f6ac8c2333bd179fa458d1db Makefile.PL
+SHA1 e492c3015027d94e4366bbc6ced2b51eb27425c7 README
+SHA1 64f5e72366d1aa26fd42631d6eb8eeb3d2442861 lib/Solaris/Disk/VTOC.pm
+SHA1 b555c009f17f061b02f219f46dbd968090887caa t/00basic.t
+SHA1 be6bd1785892c0c66d07fd1dfa6fe89e3af635aa t/01pod.t
+SHA1 6da39b48ce64b584e4c3274bff96fc76ff484820 t/02pod-coverage.t
+SHA1 f65ba03cff1e43841b388912057c03d02e3dce68 t/10read.t
+SHA1 642cb15765682ed8e2f210bef3e43d63939d739b t/10readdir.t
+SHA1 b02a5a8e0487120e34556b16fd9e76381d02f082 t/10readgarb.t
+SHA1 4aa22d3b08f11d0108b0c0399ffa9f936bfc0de2 t/10readgarb2.t
+SHA1 f5e6901ac5632bd0da3f8b138440f9a8ea6b6364 t/11readdir.t
+SHA1 f45b28136fef355c0fc5985a46f768a8e4721fc5 t/12readdisk.t
+SHA1 5cef57170bf539ac56cda85e0753ca129cfee475 t/15size.t
+SHA1 f1f00f687b82a2eb28da08bbf06c3b918098bee2 t/15size2.t
+SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 t/data/c0t0d0s2.txt
+SHA1 eacc4e1294f725a54e01c2f5b797ff8433d8cf80 t/data/c1t0d0s2.txt
+SHA1 bbfc2564c5bdd021717390153ca99f5fdcf9b593 t/data/c1t1d0s2.txt
+SHA1 e7d12f99d3e9719b9de7ef6e3e69d90e948d5641 t/data/c3t10d0s2.txt
+SHA1 5ae06f14a3c971566d12c324cdb6dd805ddbacb6 t/data/c3t11d0s2.txt
+SHA1 0a503352e678e9dce55f328eaef58ceaacf71214 t/data/c3t12d0s2.txt
+SHA1 124c7c6b6c40e829f0e51413cd3ff2bf5d50125e t/data/c3t13d0s2.txt
+SHA1 ae8bf69cb6cef995585d8621fbbf425546b6b4a4 t/data/c3t8d0s2.txt
+SHA1 e69835846bc2b91a81e3fac8683fff9d56f17c4c t/data/c3t9d0s2.txt
+SHA1 f171d38fd1a776b94d4b85318fd80973675fbe52 t/data/c4t10d0s2.txt
+SHA1 2f18d8069bc96ec8a12ad11ce7e41ba4879c2d2f t/data/c4t11d0s2.txt
+SHA1 c66f92040b2a9bd5eb7f5c1b0cfd5d8be7b7efc0 t/data/c4t12d0s2.txt
+SHA1 818b5a9a38c037866e9c94fe5fededd8c938fa42 t/data/c4t13d0s2.txt
+SHA1 c7bb7614e3bcd00f0ba65a1a04ef08bd59bdd3dd t/data/c4t8d0s2.txt
+SHA1 d4943a2801b52b700749460b5efdd9575cb46ff8 t/data/c4t99d0s2.txt
+SHA1 e3f57a8fdbfa7145ce92f5a27735241421dcca41 t/data/c4t9d0s2.txt
+SHA1 d4943a2801b52b700749460b5efdd9575cb46ff8 t/data/cdtdddsd.txt
+SHA1 c6a6b3ccf0b4d7f30001f764e4180b368f916b3e t/expect.txt
+SHA1 6163903fc18b0a6965fc7e77daec8b5c8becdfa2 t/vtoc.txt
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAkuKklMACgkQso0vRgzhYTmuWgCfeLHf7L85118tu0xMoUeKMa71
+8IMAniU3VFfCFusXL8YGfeM4IOtfwxg0
+=TDa1
+-----END PGP SIGNATURE-----
